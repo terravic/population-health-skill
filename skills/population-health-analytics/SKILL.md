@@ -1,7 +1,7 @@
 ---
-name: population-health-skill
+name: population-health-analytics
 description: >-
-  Interactive conversational Population Health Skill using A2UI v0.8.
+  Interactive conversational Population Health analytics sub-skill using A2UI v0.8.
   Features a continuous US Risk Heat Map, cohort drill-down comparisons, deterministic fact-checking,
   and actionable pricing and clinical intervention generation for Gemini Enterprise App, Spark, and Antigravity.
 tags:
@@ -17,7 +17,7 @@ tags:
   - care-management
 ---
 
-# Population Health Skill
+# Population Health Analytics
 
 This skill implements an **interactive, conversational "Looker-style" executive dashboard** based on the Google Health Population Health framework. It uses **A2UI v0.8 (Agent-to-User Interface)** to render interactive UI cards, a USA Risk Heat Map, dynamic cohort comparisons, and automated clinical/pricing intervention generators.
 

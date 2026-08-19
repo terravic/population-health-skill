@@ -63,9 +63,9 @@ population-health-skill/
 │   ├── mock_pie.py                   # Population Insights Engine & deterministic fact-checker
 │   └── map_generator.py              # Geographic US Map & regional visual renderer
 ├── skills/
-│   └── population-health-skill/
-│       ├── SKILL.md                  # Skill instructions & metadata
-│       └── README.md                 # Skill documentation
+│   └── population-health-analytics/
+│       ├── SKILL.md                  # Sub-skill instructions & metadata
+│       └── README.md                 # Sub-skill documentation
 └── ui/
     ├── __init__.py
     ├── a2ui_catalog.py               # A2UI v0.8 BasicCatalog component definitions & builders
