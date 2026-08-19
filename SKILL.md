@@ -90,9 +90,21 @@ hitl_a2ui_json = enrich_res["a2ui_payload"]
 
 --------------------------------------------------------------------------------
 
-## 4. A2UI v0.8 Output Directives
+## 4. UI Rendering Directives (Canvas Native & A2UI)
 
-When interacting with a user in an A2UI-capable harness (Gemini Enterprise App, Spark, ADK Web), emit structured `<a2ui-json>` message envelopes:
+### Mode A: Gemini Enterprise App / Spark Canvas (Native HTML5/CSS3/JS)
+In **Gemini Enterprise App / Spark**, interactive rich UI elements are rendered inside the **Canvas** panel (sandboxed iframe). 
+To display the rich interactive Looker-style dashboard, line/bar charts, and heat maps in Canvas:
+- Generate the self-contained HTML/CSS/JS application using `ui.canvas_app.generate_canvas_html()`, or output the standalone HTML application code block.
+- The Canvas application includes:
+  - **Embedded Visual Assets**: Base64 pre-rendered USA Environmental Risk Map and Regional Hot Spots.
+  - **Interactive Chart.js Visualizations**: 12-month longitudinal seasonal trend line graph, state-by-state cost comparison bar chart, and age gradient divergence paradox curve.
+  - **Client-Side Filter Engine**: Live slicing across 15 states, age brackets (18–39, 40–50, 51–64, 65+), chronic condition focus (COPD, Diabetes), and risk tiers.
+  - **Dual-Persona Interventions & HITL Staging**: Live fact-checking badges and interactive proxy approval buttons.
+  - **Theme Control**: Instant Light / Slate Dark theme toggle.
+
+### Mode B: A2UI v0.8 Declarative Envelopes
+When interacting with an agent harness equipped with an A2UI v0.8 client-side parser, emit structured `<a2ui-json>` message envelopes:
 
 ```json
 <a2ui-json>
@@ -103,12 +115,6 @@ When interacting with a user in an A2UI-capable harness (Gemini Enterprise App, 
 ]
 </a2ui-json>
 ```
-
-### BasicCatalog v0.8 Permitted Components & Icons
-- Layout: `Column`, `Row`, `Card`, `Divider`
-- Content: `Text` (usageHint: `h1`, `h2`, `h3`, `body`, `caption`, `callout`), `Image`, `Icon`
-- Interactive: `Button` (action name + context parameters)
-- Standard Icons: `"payment"`, `"favorite"`, `"check"`, `"warning"`, `"analytics"`
 
 --------------------------------------------------------------------------------
 

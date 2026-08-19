@@ -183,6 +183,19 @@ class TestPopulationHealthSkill(unittest.TestCase):
         self.assertIn("$schema", cohort_spec)
         self.assertEqual(cohort_spec["mark"]["type"], "bar")
 
+    def test_09_canvas_html_generation(self):
+        """Verify native Canvas HTML/CSS/JS generator produces valid self-contained output."""
+        from ui.canvas_app import generate_canvas_html
+        html = generate_canvas_html()
+        self.assertIn("<!DOCTYPE html>", html)
+        self.assertIn("Population Health Intelligence", html)
+        self.assertIn("cdn.jsdelivr.net/npm/chart.js", html)
+        self.assertIn("cdn.tailwindcss.com", html)
+        self.assertIn("data:image/png;base64,", html)
+        self.assertIn("DATA_STORE", html)
+        self.assertIn("Florida Coast (FL)", html)
+        self.assertIn("Unpriced Risk Gap", html)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
