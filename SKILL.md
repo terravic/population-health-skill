@@ -92,19 +92,23 @@ hitl_a2ui_json = enrich_res["a2ui_payload"]
 
 ## 4. UI Rendering Directives (Canvas Native & A2UI)
 
-### Mode A: Gemini Enterprise App / Spark Canvas (Native HTML5/CSS3/JS)
-In **Gemini Enterprise App / Spark**, interactive rich UI elements are rendered inside the **Canvas** panel (sandboxed iframe). 
-To display the rich interactive Looker-style dashboard, line/bar charts, and heat maps in Canvas:
-- Generate the self-contained HTML/CSS/JS application using `ui.canvas_app.generate_canvas_html()`, or output the standalone HTML application code block.
-- The Canvas application includes:
-  - **Embedded Visual Assets**: Base64 pre-rendered USA Environmental Risk Map and Regional Hot Spots.
-  - **Interactive Chart.js Visualizations**: 12-month longitudinal seasonal trend line graph, state-by-state cost comparison bar chart, and age gradient divergence paradox curve.
-  - **Client-Side Filter Engine**: Live slicing across 15 states, age brackets (18–39, 40–50, 51–64, 65+), chronic condition focus (COPD, Diabetes), and risk tiers.
-  - **Dual-Persona Interventions & HITL Staging**: Live fact-checking badges and interactive proxy approval buttons.
-  - **Theme Control**: Instant Light / Slate Dark theme toggle.
+### Mode A: Gemini Enterprise App / Spark Canvas (Primary Native UI)
+In **Gemini Enterprise App & Spark**, interactive UI elements, maps, and Chart.js graphs render directly inside the **Canvas** panel (sandboxed iframe).
 
-### Mode B: A2UI v0.8 Declarative Envelopes
-When interacting with an agent harness equipped with an A2UI v0.8 client-side parser, emit structured `<a2ui-json>` message envelopes:
+When the user asks to view the dashboard, analyze cohorts, view charts/maps, or generate interventions:
+1. Provide a concise executive text summary in chat.
+2. **Emit the self-contained HTML/JS/CSS document** inside a standard ````html ... ```` code block (generated via `ui.canvas_app.generate_canvas_html()` or loaded from `ui/population_health_canvas.html`).
+3. Gemini Enterprise will automatically detect the HTML document, open the **Canvas** side panel, and mount the live interactive Looker-style web application!
+
+The Canvas application provides:
+- **Embedded Visual Assets**: Base64 pre-rendered USA Environmental Risk Map and Regional Hot Spots.
+- **Interactive Chart.js Visualizations**: 12-month longitudinal seasonal trend line graph, state-by-state cost comparison bar chart, and age gradient divergence paradox curve.
+- **Client-Side Filter Engine**: Live slicing across 15 states, age brackets (18–39, 40–50, 51–64, 65+), chronic condition focus (COPD, Diabetes), and risk tiers.
+- **Dual-Persona Interventions & HITL Staging**: Live fact-checking badges and interactive proxy approval buttons.
+- **Theme Control**: Instant Light / Slate Dark theme toggle.
+
+### Mode B: A2UI v0.8 Declarative Envelopes (A2UI Harnesses Only)
+When interacting with a specialized harness equipped with an A2UI v0.8 client-side parser, emit structured `<a2ui-json>` message envelopes:
 
 ```json
 <a2ui-json>
@@ -122,16 +126,16 @@ When interacting with an agent harness equipped with an A2UI v0.8 client-side pa
 
 ### CUJ 1: Executive Dashboard & Geospatial Exploration
 1. **User**: "Open the executive population health overview."
-   - **Agent**: Emits Surface 1 (Executive Dashboard with KPI summary, US Heat Map, and hot-spot buttons).
-2. **User**: Clicks `[Drilldown: Florida Hot Spot (Age 40-50)]` (or asks "Analyze Florida cohort").
-   - **Agent**: Runs NL2SQL against `V_combined`, computes baseline deltas, and emits Surface 2 (Cohort Comparison Card).
-3. **User**: Clicks `[Generate Tailored Interventions]`.
-   - **Agent**: Runs PIE engine, performs deterministic fact-checking against `values_array`, validates AutoRater scorecard, and emits Surface 3 (Actionable Interventions Card).
+   - **Agent**: Emits the interactive Canvas HTML application (opening the dashboard with KPI summary, US Heat Map, and hot-spot buttons in Canvas) alongside a concise executive chat summary.
+2. **User**: "Drill down on the Florida hot spot (age 40-50)."
+   - **Agent**: Explains the Actuarial Paradox in chat and updates/switches the Canvas view to the Cohort Deep-Dive Surface.
+3. **User**: "Generate tailored interventions."
+   - **Agent**: Runs PIE engine, performs deterministic fact-checking, and displays the dual-persona pricing & clinical recommendations.
 
 ### CUJ 2: Actuarial Data Enrichment (Setup Phase)
 1. **User**: "Help me find non-clinical ZIP-level drivers of cost not captured by HCC."
-   - **Agent**: Runs PQA intake and PEA S1–S3 correlation checks ($r = 0.33, 0.31$, $R^2$ gain $+11.4\%$), emitting Surface 4 (Actuarial HITL Approval Card).
-2. **User**: Clicks `[Approve & Commit Proxies to V_combined]`.
+   - **Agent**: Runs PQA intake and PEA S1–S3 correlation checks ($r = 0.33, 0.31$, $R^2$ gain $+11.4\%$), opening the Actuarial Staging Surface in Canvas.
+2. **User**: Clicks `[Approve & Commit Proxies]` in Canvas.
    - **Agent**: Commits proxy features to in-memory `V_combined` runtime view and updates baseline stats.
 
 --------------------------------------------------------------------------------
