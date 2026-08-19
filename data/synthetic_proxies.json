@@ -1,0 +1,674 @@
+[
+  {
+    "zip": "33010",
+    "state": "FL",
+    "hcc_inefficiency_score": 2.171,
+    "structural_barrier_risk": 0.868,
+    "air_quality_proxy": 0.942
+  },
+  {
+    "zip": "33142",
+    "state": "FL",
+    "hcc_inefficiency_score": 2.102,
+    "structural_barrier_risk": 0.803,
+    "air_quality_proxy": 0.894
+  },
+  {
+    "zip": "33012",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.404,
+    "structural_barrier_risk": 0.835,
+    "air_quality_proxy": 0.853
+  },
+  {
+    "zip": "33125",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.463,
+    "structural_barrier_risk": 0.845,
+    "air_quality_proxy": 0.835
+  },
+  {
+    "zip": "33013",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.759,
+    "structural_barrier_risk": 0.841,
+    "air_quality_proxy": 0.838
+  },
+  {
+    "zip": "33127",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.588,
+    "structural_barrier_risk": 0.668,
+    "air_quality_proxy": 0.764
+  },
+  {
+    "zip": "33054",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.536,
+    "structural_barrier_risk": 0.711,
+    "air_quality_proxy": 0.898
+  },
+  {
+    "zip": "33130",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.647,
+    "structural_barrier_risk": 0.878,
+    "air_quality_proxy": 0.842
+  },
+  {
+    "zip": "32209",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.421,
+    "structural_barrier_risk": 0.723,
+    "air_quality_proxy": 0.771
+  },
+  {
+    "zip": "33605",
+    "state": "FL",
+    "hcc_inefficiency_score": 1.657,
+    "structural_barrier_risk": 0.86,
+    "air_quality_proxy": 0.807
+  },
+  {
+    "zip": "93201",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.984,
+    "structural_barrier_risk": 0.742,
+    "air_quality_proxy": 0.762
+  },
+  {
+    "zip": "93706",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.808,
+    "structural_barrier_risk": 0.832,
+    "air_quality_proxy": 0.8
+  },
+  {
+    "zip": "93307",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.96,
+    "structural_barrier_risk": 0.653,
+    "air_quality_proxy": 0.857
+  },
+  {
+    "zip": "93230",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.683,
+    "structural_barrier_risk": 0.754,
+    "air_quality_proxy": 0.901
+  },
+  {
+    "zip": "93702",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.966,
+    "structural_barrier_risk": 0.719,
+    "air_quality_proxy": 0.841
+  },
+  {
+    "zip": "93274",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.745,
+    "structural_barrier_risk": 0.65,
+    "air_quality_proxy": 0.782
+  },
+  {
+    "zip": "93654",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.438,
+    "structural_barrier_risk": 0.852,
+    "air_quality_proxy": 0.9
+  },
+  {
+    "zip": "93305",
+    "state": "CA",
+    "hcc_inefficiency_score": 1.483,
+    "structural_barrier_risk": 0.759,
+    "air_quality_proxy": 0.824
+  },
+  {
+    "zip": "77012",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.874,
+    "structural_barrier_risk": 0.696,
+    "air_quality_proxy": 0.779
+  },
+  {
+    "zip": "77502",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.546,
+    "structural_barrier_risk": 0.728,
+    "air_quality_proxy": 0.832
+  },
+  {
+    "zip": "78407",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.989,
+    "structural_barrier_risk": 0.848,
+    "air_quality_proxy": 0.733
+  },
+  {
+    "zip": "77011",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.771,
+    "structural_barrier_risk": 0.759,
+    "air_quality_proxy": 0.869
+  },
+  {
+    "zip": "77506",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.704,
+    "structural_barrier_risk": 0.818,
+    "air_quality_proxy": 0.848
+  },
+  {
+    "zip": "77017",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.562,
+    "structural_barrier_risk": 0.694,
+    "air_quality_proxy": 0.805
+  },
+  {
+    "zip": "78405",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.96,
+    "structural_barrier_risk": 0.777,
+    "air_quality_proxy": 0.73
+  },
+  {
+    "zip": "79901",
+    "state": "TX",
+    "hcc_inefficiency_score": 1.508,
+    "structural_barrier_risk": 0.762,
+    "air_quality_proxy": 0.761
+  },
+  {
+    "zip": "45202",
+    "state": "OH",
+    "hcc_inefficiency_score": 1.91,
+    "structural_barrier_risk": 0.755,
+    "air_quality_proxy": 0.8
+  },
+  {
+    "zip": "43952",
+    "state": "OH",
+    "hcc_inefficiency_score": 1.593,
+    "structural_barrier_risk": 0.873,
+    "air_quality_proxy": 0.83
+  },
+  {
+    "zip": "45601",
+    "state": "OH",
+    "hcc_inefficiency_score": 1.954,
+    "structural_barrier_risk": 0.686,
+    "air_quality_proxy": 0.903
+  },
+  {
+    "zip": "44104",
+    "state": "OH",
+    "hcc_inefficiency_score": 1.478,
+    "structural_barrier_risk": 0.855,
+    "air_quality_proxy": 0.767
+  },
+  {
+    "zip": "45402",
+    "state": "OH",
+    "hcc_inefficiency_score": 2.008,
+    "structural_barrier_risk": 0.697,
+    "air_quality_proxy": 0.856
+  },
+  {
+    "zip": "44306",
+    "state": "OH",
+    "hcc_inefficiency_score": 1.889,
+    "structural_barrier_risk": 0.667,
+    "air_quality_proxy": 0.807
+  },
+  {
+    "zip": "43211",
+    "state": "OH",
+    "hcc_inefficiency_score": 2.007,
+    "structural_barrier_risk": 0.853,
+    "air_quality_proxy": 0.887
+  },
+  {
+    "zip": "44502",
+    "state": "OH",
+    "hcc_inefficiency_score": 2.042,
+    "structural_barrier_risk": 0.8,
+    "air_quality_proxy": 0.721
+  },
+  {
+    "zip": "30314",
+    "state": "GA",
+    "hcc_inefficiency_score": 1.096,
+    "structural_barrier_risk": 0.475,
+    "air_quality_proxy": 0.622
+  },
+  {
+    "zip": "30310",
+    "state": "GA",
+    "hcc_inefficiency_score": 1.156,
+    "structural_barrier_risk": 0.562,
+    "air_quality_proxy": 0.699
+  },
+  {
+    "zip": "30318",
+    "state": "GA",
+    "hcc_inefficiency_score": 1.358,
+    "structural_barrier_risk": 0.597,
+    "air_quality_proxy": 0.558
+  },
+  {
+    "zip": "31201",
+    "state": "GA",
+    "hcc_inefficiency_score": 1.403,
+    "structural_barrier_risk": 0.658,
+    "air_quality_proxy": 0.62
+  },
+  {
+    "zip": "31401",
+    "state": "GA",
+    "hcc_inefficiency_score": 1.41,
+    "structural_barrier_risk": 0.633,
+    "air_quality_proxy": 0.689
+  },
+  {
+    "zip": "30901",
+    "state": "GA",
+    "hcc_inefficiency_score": 1.404,
+    "structural_barrier_risk": 0.543,
+    "air_quality_proxy": 0.637
+  },
+  {
+    "zip": "28208",
+    "state": "NC",
+    "hcc_inefficiency_score": 1.403,
+    "structural_barrier_risk": 0.456,
+    "air_quality_proxy": 0.662
+  },
+  {
+    "zip": "28205",
+    "state": "NC",
+    "hcc_inefficiency_score": 1.157,
+    "structural_barrier_risk": 0.631,
+    "air_quality_proxy": 0.524
+  },
+  {
+    "zip": "27610",
+    "state": "NC",
+    "hcc_inefficiency_score": 1.172,
+    "structural_barrier_risk": 0.633,
+    "air_quality_proxy": 0.55
+  },
+  {
+    "zip": "27105",
+    "state": "NC",
+    "hcc_inefficiency_score": 1.162,
+    "structural_barrier_risk": 0.598,
+    "air_quality_proxy": 0.588
+  },
+  {
+    "zip": "27406",
+    "state": "NC",
+    "hcc_inefficiency_score": 1.121,
+    "structural_barrier_risk": 0.671,
+    "air_quality_proxy": 0.558
+  },
+  {
+    "zip": "28301",
+    "state": "NC",
+    "hcc_inefficiency_score": 1.255,
+    "structural_barrier_risk": 0.539,
+    "air_quality_proxy": 0.627
+  },
+  {
+    "zip": "85009",
+    "state": "AZ",
+    "hcc_inefficiency_score": 1.338,
+    "structural_barrier_risk": 0.621,
+    "air_quality_proxy": 0.648
+  },
+  {
+    "zip": "85034",
+    "state": "AZ",
+    "hcc_inefficiency_score": 1.389,
+    "structural_barrier_risk": 0.616,
+    "air_quality_proxy": 0.566
+  },
+  {
+    "zip": "85040",
+    "state": "AZ",
+    "hcc_inefficiency_score": 1.218,
+    "structural_barrier_risk": 0.666,
+    "air_quality_proxy": 0.649
+  },
+  {
+    "zip": "85713",
+    "state": "AZ",
+    "hcc_inefficiency_score": 1.165,
+    "structural_barrier_risk": 0.549,
+    "air_quality_proxy": 0.628
+  },
+  {
+    "zip": "85714",
+    "state": "AZ",
+    "hcc_inefficiency_score": 1.41,
+    "structural_barrier_risk": 0.633,
+    "air_quality_proxy": 0.537
+  },
+  {
+    "zip": "85301",
+    "state": "AZ",
+    "hcc_inefficiency_score": 1.35,
+    "structural_barrier_risk": 0.605,
+    "air_quality_proxy": 0.549
+  },
+  {
+    "zip": "48217",
+    "state": "MI",
+    "hcc_inefficiency_score": 1.079,
+    "structural_barrier_risk": 0.545,
+    "air_quality_proxy": 0.639
+  },
+  {
+    "zip": "48206",
+    "state": "MI",
+    "hcc_inefficiency_score": 1.052,
+    "structural_barrier_risk": 0.623,
+    "air_quality_proxy": 0.669
+  },
+  {
+    "zip": "48505",
+    "state": "MI",
+    "hcc_inefficiency_score": 1.07,
+    "structural_barrier_risk": 0.507,
+    "air_quality_proxy": 0.687
+  },
+  {
+    "zip": "48911",
+    "state": "MI",
+    "hcc_inefficiency_score": 1.43,
+    "structural_barrier_risk": 0.655,
+    "air_quality_proxy": 0.635
+  },
+  {
+    "zip": "49507",
+    "state": "MI",
+    "hcc_inefficiency_score": 1.347,
+    "structural_barrier_risk": 0.559,
+    "air_quality_proxy": 0.557
+  },
+  {
+    "zip": "48213",
+    "state": "MI",
+    "hcc_inefficiency_score": 1.16,
+    "structural_barrier_risk": 0.468,
+    "air_quality_proxy": 0.563
+  },
+  {
+    "zip": "10001",
+    "state": "NY",
+    "hcc_inefficiency_score": 1.043,
+    "structural_barrier_risk": 0.455,
+    "air_quality_proxy": 0.361
+  },
+  {
+    "zip": "10451",
+    "state": "NY",
+    "hcc_inefficiency_score": 1.117,
+    "structural_barrier_risk": 0.428,
+    "air_quality_proxy": 0.468
+  },
+  {
+    "zip": "11201",
+    "state": "NY",
+    "hcc_inefficiency_score": 1.064,
+    "structural_barrier_risk": 0.488,
+    "air_quality_proxy": 0.512
+  },
+  {
+    "zip": "14201",
+    "state": "NY",
+    "hcc_inefficiency_score": 0.877,
+    "structural_barrier_risk": 0.396,
+    "air_quality_proxy": 0.355
+  },
+  {
+    "zip": "14604",
+    "state": "NY",
+    "hcc_inefficiency_score": 0.845,
+    "structural_barrier_risk": 0.437,
+    "air_quality_proxy": 0.355
+  },
+  {
+    "zip": "13202",
+    "state": "NY",
+    "hcc_inefficiency_score": 0.962,
+    "structural_barrier_risk": 0.311,
+    "air_quality_proxy": 0.414
+  },
+  {
+    "zip": "19133",
+    "state": "PA",
+    "hcc_inefficiency_score": 1.091,
+    "structural_barrier_risk": 0.355,
+    "air_quality_proxy": 0.364
+  },
+  {
+    "zip": "19140",
+    "state": "PA",
+    "hcc_inefficiency_score": 1.073,
+    "structural_barrier_risk": 0.443,
+    "air_quality_proxy": 0.478
+  },
+  {
+    "zip": "15219",
+    "state": "PA",
+    "hcc_inefficiency_score": 1.034,
+    "structural_barrier_risk": 0.424,
+    "air_quality_proxy": 0.387
+  },
+  {
+    "zip": "15206",
+    "state": "PA",
+    "hcc_inefficiency_score": 0.84,
+    "structural_barrier_risk": 0.48,
+    "air_quality_proxy": 0.514
+  },
+  {
+    "zip": "18102",
+    "state": "PA",
+    "hcc_inefficiency_score": 0.939,
+    "structural_barrier_risk": 0.457,
+    "air_quality_proxy": 0.363
+  },
+  {
+    "zip": "16501",
+    "state": "PA",
+    "hcc_inefficiency_score": 1.01,
+    "structural_barrier_risk": 0.327,
+    "air_quality_proxy": 0.517
+  },
+  {
+    "zip": "60623",
+    "state": "IL",
+    "hcc_inefficiency_score": 0.919,
+    "structural_barrier_risk": 0.487,
+    "air_quality_proxy": 0.49
+  },
+  {
+    "zip": "60609",
+    "state": "IL",
+    "hcc_inefficiency_score": 0.952,
+    "structural_barrier_risk": 0.461,
+    "air_quality_proxy": 0.514
+  },
+  {
+    "zip": "60636",
+    "state": "IL",
+    "hcc_inefficiency_score": 1.056,
+    "structural_barrier_risk": 0.359,
+    "air_quality_proxy": 0.495
+  },
+  {
+    "zip": "61605",
+    "state": "IL",
+    "hcc_inefficiency_score": 1.014,
+    "structural_barrier_risk": 0.383,
+    "air_quality_proxy": 0.355
+  },
+  {
+    "zip": "62703",
+    "state": "IL",
+    "hcc_inefficiency_score": 1.108,
+    "structural_barrier_risk": 0.454,
+    "air_quality_proxy": 0.397
+  },
+  {
+    "zip": "61102",
+    "state": "IL",
+    "hcc_inefficiency_score": 1.065,
+    "structural_barrier_risk": 0.452,
+    "air_quality_proxy": 0.46
+  },
+  {
+    "zip": "05401",
+    "state": "VT",
+    "hcc_inefficiency_score": 0.438,
+    "structural_barrier_risk": 0.228,
+    "air_quality_proxy": 0.205
+  },
+  {
+    "zip": "05602",
+    "state": "VT",
+    "hcc_inefficiency_score": 0.422,
+    "structural_barrier_risk": 0.155,
+    "air_quality_proxy": 0.142
+  },
+  {
+    "zip": "05701",
+    "state": "VT",
+    "hcc_inefficiency_score": 0.397,
+    "structural_barrier_risk": 0.207,
+    "air_quality_proxy": 0.25
+  },
+  {
+    "zip": "05819",
+    "state": "VT",
+    "hcc_inefficiency_score": 0.402,
+    "structural_barrier_risk": 0.139,
+    "air_quality_proxy": 0.123
+  },
+  {
+    "zip": "05301",
+    "state": "VT",
+    "hcc_inefficiency_score": 0.357,
+    "structural_barrier_risk": 0.291,
+    "air_quality_proxy": 0.208
+  },
+  {
+    "zip": "03101",
+    "state": "NH",
+    "hcc_inefficiency_score": 0.323,
+    "structural_barrier_risk": 0.307,
+    "air_quality_proxy": 0.206
+  },
+  {
+    "zip": "03301",
+    "state": "NH",
+    "hcc_inefficiency_score": 0.367,
+    "structural_barrier_risk": 0.224,
+    "air_quality_proxy": 0.175
+  },
+  {
+    "zip": "03801",
+    "state": "NH",
+    "hcc_inefficiency_score": 0.402,
+    "structural_barrier_risk": 0.215,
+    "air_quality_proxy": 0.201
+  },
+  {
+    "zip": "03060",
+    "state": "NH",
+    "hcc_inefficiency_score": 0.574,
+    "structural_barrier_risk": 0.263,
+    "air_quality_proxy": 0.291
+  },
+  {
+    "zip": "03431",
+    "state": "NH",
+    "hcc_inefficiency_score": 0.334,
+    "structural_barrier_risk": 0.101,
+    "air_quality_proxy": 0.201
+  },
+  {
+    "zip": "55401",
+    "state": "MN",
+    "hcc_inefficiency_score": 0.504,
+    "structural_barrier_risk": 0.251,
+    "air_quality_proxy": 0.286
+  },
+  {
+    "zip": "55101",
+    "state": "MN",
+    "hcc_inefficiency_score": 0.545,
+    "structural_barrier_risk": 0.242,
+    "air_quality_proxy": 0.284
+  },
+  {
+    "zip": "55802",
+    "state": "MN",
+    "hcc_inefficiency_score": 0.556,
+    "structural_barrier_risk": 0.163,
+    "air_quality_proxy": 0.142
+  },
+  {
+    "zip": "55901",
+    "state": "MN",
+    "hcc_inefficiency_score": 0.336,
+    "structural_barrier_risk": 0.109,
+    "air_quality_proxy": 0.198
+  },
+  {
+    "zip": "56301",
+    "state": "MN",
+    "hcc_inefficiency_score": 0.559,
+    "structural_barrier_risk": 0.309,
+    "air_quality_proxy": 0.3
+  },
+  {
+    "zip": "80202",
+    "state": "CO",
+    "hcc_inefficiency_score": 0.593,
+    "structural_barrier_risk": 0.302,
+    "air_quality_proxy": 0.153
+  },
+  {
+    "zip": "80903",
+    "state": "CO",
+    "hcc_inefficiency_score": 0.45,
+    "structural_barrier_risk": 0.247,
+    "air_quality_proxy": 0.274
+  },
+  {
+    "zip": "80521",
+    "state": "CO",
+    "hcc_inefficiency_score": 0.548,
+    "structural_barrier_risk": 0.2,
+    "air_quality_proxy": 0.177
+  },
+  {
+    "zip": "80302",
+    "state": "CO",
+    "hcc_inefficiency_score": 0.596,
+    "structural_barrier_risk": 0.219,
+    "air_quality_proxy": 0.194
+  },
+  {
+    "zip": "81501",
+    "state": "CO",
+    "hcc_inefficiency_score": 0.392,
+    "structural_barrier_risk": 0.221,
+    "air_quality_proxy": 0.287
+  }
+]

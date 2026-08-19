@@ -1,0 +1,55 @@
+{
+  "name": "population-health-skill-plugin",
+  "version": "1.0.0",
+  "description": "Population Health Skill with A2UI v0.8 & US Risk Heat Map",
+  "author": "Google Health & Population Health Team",
+  "entrypoint": "SKILL.md",
+  "capabilities": [
+    "a2ui-v0.8",
+    "conversational-bi",
+    "actuarial-enrichment",
+    "geospatial-risk-mapping"
+  ],
+  "tags": [
+    "population-health",
+    "healthcare",
+    "a2ui",
+    "conversational-bi",
+    "actuarial-science",
+    "environmental-risk",
+    "sdoh",
+    "nl2sql",
+    "fact-checking",
+    "care-management"
+  ],
+  "engines": {
+    "database": "engines.mock_database.MockDatabase",
+    "nl2sql": "engines.mock_nl2sql.MockNL2SQLEngine",
+    "pie": "engines.mock_pie.MockPIEEngine",
+    "pea": "engines.mock_pea.MockPEAEngine",
+    "pqa": "engines.mock_pqa.MockPQAEngine",
+    "map_generator": "engines.map_generator"
+  },
+  "surfaces": [
+    {
+      "id": "executive-dashboard",
+      "name": "Executive Overview & National Heat Map",
+      "template": "ui.templates_dashboard"
+    },
+    {
+      "id": "cohort-comparison",
+      "name": "Cohort Comparison Card",
+      "template": "ui.templates_cohort"
+    },
+    {
+      "id": "actionable-interventions",
+      "name": "Actionable Interventions Card",
+      "template": "ui.templates_interventions"
+    },
+    {
+      "id": "actuarial-hitl-approval",
+      "name": "Actuarial Staging & Approval Card",
+      "template": "ui.templates_hitl_approval"
+    }
+  ]
+}

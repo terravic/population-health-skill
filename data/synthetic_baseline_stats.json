@@ -1,0 +1,56 @@
+[
+  {
+    "cluster": "ALL",
+    "feature_source": "claims",
+    "feature_type": "continuous",
+    "feature_name": "total_cost",
+    "category_level": "none",
+    "method": "median",
+    "population_value": 9080.0
+  },
+  {
+    "cluster": "ALL",
+    "feature_source": "clinical",
+    "feature_type": "continuous",
+    "feature_name": "hcc_score",
+    "category_level": "none",
+    "method": "mean",
+    "population_value": 1.1
+  },
+  {
+    "cluster": "ALL",
+    "feature_source": "clinical",
+    "feature_type": "binary",
+    "feature_name": "copd_prevalence",
+    "category_level": "none",
+    "method": "proportion",
+    "population_value": 0.082
+  },
+  {
+    "cluster": "ALL",
+    "feature_source": "environmental",
+    "feature_type": "continuous",
+    "feature_name": "composite_risk",
+    "category_level": "none",
+    "method": "median",
+    "population_value": 0.42
+  },
+  {
+    "cluster": "ALL",
+    "feature_source": "environmental",
+    "feature_type": "continuous",
+    "feature_name": "aqi_pm25",
+    "category_level": "none",
+    "method": "median",
+    "population_value": 52.5
+  },
+  {
+    "cluster": "ALL",
+    "feature_source": "environmental",
+    "feature_type": "continuous",
+    "feature_name": "pollen_upi",
+    "category_level": "none",
+    "method": "median",
+    "population_value": 2.4
+  }
+]
