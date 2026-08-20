@@ -5,20 +5,23 @@
   "author": "Google Health & Population Health Team",
   "entrypoint": "SKILL.md",
   "capabilities": [
+    "canvas-app",
+    "html-interactive-ui",
     "a2ui-v0.8",
     "conversational-bi",
     "actuarial-enrichment",
     "geospatial-risk-mapping"
   ],
   "tags": [
+    "canvas",
     "population-health",
     "healthcare",
-    "a2ui",
     "conversational-bi",
     "actuarial-science",
     "environmental-risk",
     "sdoh",
     "nl2sql",
+    "a2ui",
     "fact-checking",
     "care-management"
   ],

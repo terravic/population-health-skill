@@ -76,6 +76,8 @@ population-health-skill/
 └── ui/
     ├── __init__.py
     ├── a2ui_catalog.py               # A2UI v0.8 BasicCatalog component definitions & builders
+    ├── canvas_app.py                 # Self-contained Canvas HTML5/CSS3/JS application generator
+    ├── population_health_canvas.html # Standalone interactive Canvas web application
     ├── templates_cohort.py           # Cohort Comparison Card (Surface 2)
     ├── templates_dashboard.py        # Executive Overview Dashboard (Surface 1)
     ├── templates_hitl_approval.py    # Data Scientist Staging & Approval Card (Surface 4)
